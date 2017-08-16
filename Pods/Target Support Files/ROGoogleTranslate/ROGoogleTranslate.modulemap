@@ -1,0 +1,6 @@
+framework module ROGoogleTranslate {
+  umbrella header "ROGoogleTranslate-umbrella.h"
+
+  export *
+  module * { export * }
+}

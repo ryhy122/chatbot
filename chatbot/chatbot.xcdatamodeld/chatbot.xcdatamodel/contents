@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F2073" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="History" representedClassName="History" syncable="YES" codeGenerationType="class">
+        <attribute name="definition" optional="YES" attributeType="String" storedInTruthFile="YES" syncable="YES"/>
+        <attribute name="example" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoResponse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="userImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Phrase" representedClassName="Phrase" syncable="YES" codeGenerationType="class">
+        <attribute name="phrase" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserVocabulary" representedClassName="UserVocabulary" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Vocabulary" representedClassName="Vocabulary" syncable="YES" codeGenerationType="class">
+        <attribute name="definiition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="example" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="History" positionX="-54" positionY="18" width="128" height="135"/>
+        <element name="Phrase" positionX="-45" positionY="36" width="128" height="75"/>
+        <element name="UserVocabulary" positionX="-54" positionY="27" width="128" height="105"/>
+        <element name="Vocabulary" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
 </model>

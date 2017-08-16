@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +20,44 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Photionary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Da-KN-VTd">
+                                <rect key="frame" x="92" y="440" width="207" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GujaratiSangamMN" family="Gujarati Sangam MN" pointSize="43"/>
+                                <color key="textColor" red="0.97531208660000002" green="0.97531208660000002" blue="0.97531208660000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="142_City-of-Capetown_by-Mutua-Matheka_iPhone.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XOy-g4-aIb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SnapLook" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aw0-EK-FUo">
+                                <rect key="frame" x="42" y="111" width="291" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="62"/>
+                                <color key="textColor" red="0.92900364721485407" green="0.91231344055852603" blue="0.92760170888531823" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XOy-g4-aIb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1og-Xx-gem"/>
+                            <constraint firstAttribute="trailing" secondItem="XOy-g4-aIb" secondAttribute="trailing" id="Mr3-qe-sGM"/>
+                            <constraint firstAttribute="trailing" secondItem="XOy-g4-aIb" secondAttribute="trailing" id="bx3-5x-O1w"/>
+                            <constraint firstItem="XOy-g4-aIb" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="eS3-fS-MBl"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="XOy-g4-aIb" secondAttribute="bottom" id="g2e-Af-H3a"/>
+                            <constraint firstItem="XOy-g4-aIb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="lEh-bP-vgA"/>
+                            <constraint firstItem="XOy-g4-aIb" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="vwJ-zI-ZM3"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="XOy-g4-aIb" secondAttribute="bottom" id="wmZ-M8-WLC"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="142_City-of-Capetown_by-Mutua-Matheka_iPhone.jpg" width="640" height="960"/>
+    </resources>
 </document>

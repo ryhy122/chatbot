@@ -1,0 +1,6 @@
+framework module RAReorderableLayout {
+  umbrella header "RAReorderableLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

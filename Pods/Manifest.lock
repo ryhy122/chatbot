@@ -1,0 +1,50 @@
+PODS:
+  - ActiveLabel (0.7.1)
+  - Alamofire (4.5.0)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - ImagePicker (2.1.1)
+  - JSQMessagesViewController (7.3.5):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - RAReorderableLayout (0.6.1)
+  - ROGoogleTranslate (0.0.5)
+  - SwiftyJSON (3.1.4)
+  - TRMosaicLayout (1.0.0)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - Alamofire (~> 4.4)
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - ImagePicker
+  - JSQMessagesViewController
+  - RAReorderableLayout
+  - ROGoogleTranslate
+  - SwiftyJSON
+  - TRMosaicLayout
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  ActiveLabel: 68625f22775f51c31bb691ca8de20f1e5a3bc825
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  ImagePicker: fe4c699abb56ff03994fa98d8b02e3883ee118be
+  JSQMessagesViewController: 6587f56aedbcb150a8ba1d968e1ef58b1bc758b7
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  RAReorderableLayout: 5b6b87dd4022ee1747fd475623b14f5df940f754
+  ROGoogleTranslate: 344d579487c21af1ae54138baa68605b861ba84e
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TRMosaicLayout: 1875505c48dd2877afd69a8bea7b4c1c63afa5b5
+
+PODFILE CHECKSUM: bcb218a8d1af4f243e49b43b110ec0d309d59ebd
+
+COCOAPODS: 1.2.1
