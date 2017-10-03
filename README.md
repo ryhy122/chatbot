@@ -8,7 +8,8 @@ First, download or clone the project. And run pod install on the Terminal.
 These pods below are insode pod. 
 
 Chatbot message view is based on JSQMessagesViewController (which is deprecated now)
-pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+
+  pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
   pod 'JSQMessagesViewController'
   pod 'Alamofire', '~> 4.4'
   pod 'SwiftyJSON'
